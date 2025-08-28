@@ -97,9 +97,16 @@ task.addEventListener("click", (eo) => {
 });
 task.addEventListener("click", (eo) => { 
     if (eo.target.classList==("icon-star-full icon")) {
-        console.log("alaa")
+       
         eo.target.parentElement.parentElement.prepend(eo.target.parentElement) 
-        eo.target.classList.add("orange");
+        eo.target.classList.add("orange"); }
+        else if (eo.target.classList==("icon-star-full icon orange")) {
+         console.log("alaa")
+         eo.target.classList.remove("orange");
         
     }
+        
+   
 });
+
+

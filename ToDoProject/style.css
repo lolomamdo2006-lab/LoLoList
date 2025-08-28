@@ -1,0 +1,158 @@
+*{
+    font-family: Tahoma, sans-serif;
+
+
+    margin: 0%;
+}
+
+body{
+
+    
+  background-color: #352f5b;
+  color:#fff;
+}
+h1{
+    text-align: center; /* لجعل الكلام في النصف*/
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /*margin: auto = لتوسيط divات أو عناصر block نفسها. 
+text-align: center = لتوسيط النصوص أو العناصر inline اللي جوا العنصر.*/
+}
+
+p{
+    font-size: 20px;
+}
+footer{
+    background-color: #444272;
+    border-radius: 0vw 0vw 2vw 2vw;
+      text-align: center;
+      margin-top: 30vw;
+      width: 100vw;
+      padding-top: 3vw;
+      padding-bottom: 3vw;
+}
+a{
+    
+    color: #fff;
+    text-decoration: none; /*لالغاء الخط اللي تحت اللنك*/
+    font-size: 13px;
+ 
+}
+.icon-mug{
+  all: unset; 
+  font-size: 20px;
+ 
+}
+.icon-mug:hover{
+font-size: 30px;
+transform: .4s;
+cursor: pointer;
+}
+.icon{
+     opacity: 0.4;
+     /*الشفافية*/
+}
+.icon-wink2{
+  opacity: 1;
+}
+.icon:hover{
+font-size: 25px;
+transition: .4s;
+cursor: pointer;
+}
+.icon-star-full:hover,.icon-sad2:hover,.icon-wink2:hover{
+color:  rgb(255, 208, 0);
+opacity: 1;
+}
+.icon-bin:hover{
+  color: #fff;
+  opacity:1;
+}
+header{
+
+    border:2px solid  #444272;
+     border-radius: 0vw 0vw 5vw 5vw;
+      background-color: #444272;
+       background: linear-gradient(to top, #444272, rgb(134, 131, 141,0.9));
+}
+
+form {
+ 
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw; /* لازم يكون فيه عرض محدد */
+
+}
+.stop{
+  
+  height: 35%; width:35%; 
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-right: 5vw;
+box-shadow:0px 1px 7px #fff;
+ background-color: #444272;
+  
+}
+
+.task{
+  border: 2px solid #fff ;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  /* margin-left: auto;
+  margin-right: auto; */
+
+     /*  والمارجن علشان اخليها في النصفvw علشان ياخد من حجم المتصفح*/
+     /*  خلي بالك لازم يكون فيه عرض محدد علشان يشتغلوا هو علشان يخلي العنصر في المنتصف بيعمل مارجن ليفت ورايت اوتو */
+    width: 45vw;
+    padding-top:1vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw ;
+   background-color: rgba(180, 214, 241, 0.4); /* نفس اللون لكن شفاف */
+    border: none;
+    backdrop-filter: blur(4x); /* ضباب */
+  -webkit-backdrop-filter: blur(10px); /* للمتصفحات القديمة */
+   box-shadow:0 2px 12px #aeb2b6;
+   border-bottom: .5px solid #fff;
+   display: flex;
+   justify-content:space-between; 
+   /*علشان يخليهم على محور اكس وبينهم مسافة*/
+     text-align: center;
+     margin-left: 10px;
+}
+
+.main{
+
+  display: flex;
+  justify-content: space-between;
+  
+}
+#msg,#msg2{
+      display: none; 
+      background: #4caf50;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 10px;
+      width: fit-content;
+      font-size: 5vw;
+}
+#focus{
+  margin-left: 0vw;
+  margin-top: 10px
+}
+#howmany{
+  margin-left: 0vw;
+}
+.dn{
+  display: none;
+}
+.icon-heart:hover{
+  font-size: 25px;
+}
+.orange{
+  color: #ffbb00;
+  opacity: 1;
+ 
+}
